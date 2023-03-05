@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 95%;
+    
+}
+.quotes{
+    width: 900px;
+    height: 450px;
+    border: 10px solid cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.quotes p , h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 700;
+}
