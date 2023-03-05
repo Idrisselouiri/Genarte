@@ -28,3 +28,9 @@ body{
 h3{
     font-family: 700;
 }
+@media (max-width : 480px){
+    .quotes p , h3{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+}
